@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+<title>Parti Esprit</title>
+	<meta charset="UTF-8">
+<style>
+
+body {
+    background-color: #f3d35b;
+}
+
+</style>
+</head>
+
+<link rel = "stylesheet"
+    type = "text/css"
+    href  = "style.css"/>
+
+    <div class="navbar">
+      <img src="parti-esprit-high-resolution-logo-white-on-transparent-background.png" style="width:15%; height: 15%;">
+    </div>
+
+
+<body style="margin-top: 120px;">
+	<p><meta charset="UTF-8"></p>
+
+<div class="container"> 
+    
+    <div class="box">
+        <h1 style="text-align: center;">PROMESSE 1:</h1>
+        <img src="1.png" style="width: 350px; height: 350px; ">
+        <h2 style="text-align: center;"> ÉTUDIANTE-ÉTUDIANTE </h2>
+        <div style="font-family:Trebuchet MS ; margin: 10px;">
+        
+        <p style="font-family:Trebuchet MS ; margin: 20px; line-height: 150%;"> 
+            Note parti vous promesse d'améliorer l'esprit de l'école au niveau étudiante-étudiante. </p>
+
+        <button class="accordion">Endroits Tranquilles...</button>
+        <div class="panel">
+        <p> Par établir des "endroits tranquilles" pour promouvoir l'interaction et l'étude autour de l'école
+            Des "endroits tranquilles" seront installés dans les couloirs et les salles de classe vides de l'école. Vous y trouverez des 
+            objets interactifs tels que des cartes de conversation et des échiquiers. L'objectif est de promouvoir l'interaction entre les élèves.</p>
+        </div>
+
+        <button class="accordion">Santé Mentale...</button>
+        <div class="panel">
+        <p>Commencer plus de conversations de la santé mentale à l'école dans des salles de classe et utilisant des "cartes de démarrage de conversation." </p>
+        </div>
+
+
+        </div>
+    </div>
+
+ 
+<div class="box">
+    <h1 style="text-align: center;">PROMESSE 2:</h1>
+    <img src="2.png" style="width: 350px; height: 350px; ">
+    <h2 style="text-align: center;"> ÉTUDIANTE-ÉCOLE </h2>
+    <div style="font-family:Trebuchet MS ; margin: 10px;">
+    
+    <p style="font-family:Trebuchet MS ; margin: 20px; line-height: 150%;"> 
+        Note parti vous promesse d'améliorer l'esprit de l'école au niveau étudiante-école. </p>
+
+    <button class="accordion">L'application Esprit...</button>
+    <div class="panel">
+    <p> Il s'agit d'une application mobile qui attribue des points aux élèves chaque fois 
+        qu'ils participent à un événement de l'esprit de l'école (un club, 
+        d'un match sportif ou d'un événement scolaire). À la fin de l'année, les élèves qui 
+        ont accumulé le plus de points gagnent un prix, comme une fête pizza ! </p>
+    </div>
+
+    <button class="accordion">Plus d'événements d'esprit...</button>
+    <div class="panel">
+    <p>Organiser plus d'événements d'esprit à Loretto Abbey. Quelques exemples sont un magasin
+        de vêtements, un vide-grenier, et des soirées cinéma. </p>
+    </div>
+
+    <button class="accordion">Publicité...</button>
+    <div class="panel">
+    <p>La publicité améliorée pour les équipes, clubs, activités, etc. à l'école. Notre communauté 
+        devrait se célébrer les uns les autres.
+    </p>
+    </div>
+
+    <button class="accordion">Conseils anonymes...</button>
+    <div class="panel">
+    <p>Donne aux étudiantes une chance de contribuer leurs propres idées utilisant des conseils et 
+        sondages anonymes.  
+    </p>
+    </div>
+
+    </div>
+</div>
+
+<div class="box">
+    <h1 style="text-align: center;">PROMESSE 3:</h1>
+    <img src="3.png" style="width: 350px; height: 350px; ">
+    <h2 style="text-align: center;"> ÉTUDIANTE-MONDE </h2>
+    <div style="font-family:Trebuchet MS ; margin: 10px;">
+    
+    <p style="font-family:Trebuchet MS ; margin: 20px; line-height: 150%;"> 
+        Note parti vous promesse d'améliorer l'esprit de l'école au niveau étudiante-monde. </p>
+
+    <button class="accordion">D'autres écoles...</button>
+    <div class="panel">
+    <p> Planifier plus d'activités avec d'autres écoles. Par exemple, les danses avec Brebeuf, ou un 
+        compétition avec Chaminade. </p>
+    </div>
+
+    <button class="accordion">Loretto International...</button>
+    <div class="panel">
+    <p>Savez-vous qu'il y a plusieurs écoles "Loretto Abbey" autour du monde ? Notre parti veut se participer
+        en plus d'initiatives et compétitions internationaux avec des autres écoles de Loretto Abbey. Par exemple 
+        un programme "Copain Correspondant" ou "Pen-Pal". </p>
+    </div>
+
+
+    </div>
+</div>
+
+
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+.navbar {
+    overflow: hidden;
+    background-color: #111;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    text-align: center;
+    padding: 20px;
+  }
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .box2 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .box3 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .vertical {
+    border-left: 2px solid white;
+    height: 170px;
+    padding-left: 5px;
+    left: 50%;
+    position:absolute;
+    }
+
+    .container1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: #f3d35b;
+      height: 100px;
+    }
+ 
+    .accordion {
+      background-color: #f3d35b;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border-color: #b99614;
+      transition: 0.4s;
+      margin: 2px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .active, .accordion:hover {
+      background-color: #111;
+      color: #ffffff
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+
+    .vidbox {
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 980px;
+      height: 1400px;
+      background-color: #ffffff;
+    }
+
+
